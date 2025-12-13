@@ -2,7 +2,7 @@
     <footer>
         <div>Copyright © SAW-MapStats 2025<span v-if="new Date().getFullYear() !== 2025">-{{
             new Date().getFullYear() }}</span>. All rights reserved.</div>
-        <div>Email: <a href="mailto:example@example.com">example@example.com</a></div>
+        <!-- <div>Email: <a href="mailto:example@example.com">example@example.com</a></div> -->
     </footer>
 </template>
 
