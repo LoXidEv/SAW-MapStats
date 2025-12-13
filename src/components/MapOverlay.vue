@@ -39,14 +39,15 @@ export default {
             <button class="map-marker" @click="MarkerClick(item)"
                 :style="{ left: item.baseInfo.originalX + 'px', top: item.baseInfo.originalY + 'px' }"
                 :title="`(${Math.round(item.baseInfo.originalX)}, ${Math.round(item.baseInfo.originalY)}) ${$t(item.baseInfo.name)}\n${$t(item.baseInfo.desc)}`">
-                <img class="marker-icon" :src="'/image/icon/' + item.baseInfo.icon" alt="Marker Icon" />
+                <img class="marker-icon" v-if="item.baseInfo.icon !== 'null'" :src="'/image/icon/' + item.baseInfo.icon" alt="Marker Icon" />
+                <div v-else style="font-size: 26px;color: #ffffff;text-shadow: 0 0 8px #000000;text-align: center;font-weight: bold;">{{ $t(item.baseInfo.name) }}</div>
             </button>
         </div>
 
         <Teleport to="body">
             <div class="map-marker-text animate__animated animate__fadeInRight" v-if="selectedItem">
                 <div class="map-marker-text-navbar">
-                    <div class="map-marker-text-navbar-title"># Note</div>
+                    <div></div>
                     <button class="map-marker-text-navbar-close"
                         @click="CloseDetail"><mdui-icon-close></mdui-icon-close></button>
                 </div>
@@ -92,7 +93,7 @@ export default {
 .map-marker-text-name {
     text-align: center;
     background-color: var(--background-color);
-    padding: 5px 10px;
+    padding: 0 8px;
     margin-bottom: 8px;
     border-radius: var(--border-radius);
     color: var(--theme-color);
@@ -107,14 +108,13 @@ export default {
 .map-marker-text {
     z-index: 9999;
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 60px;
+    right: 16px;
     background-color: var(--background-color-oc);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(10px);
     border: 4px solid var(--theme-color);
     border-radius: var(--border-radius);
-    color: #ffffff;
-    padding: 4px 10px 10px 10px;
+    padding: 10px;
     max-width: 200px;
     overflow: hidden;
     word-wrap: break-word;

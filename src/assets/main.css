@@ -1,2 +1,6 @@
 @import './base.css';
 
+a {
+    color: var(--theme-color);
+    text-decoration: none;
+}

@@ -12,6 +12,8 @@ export default {
         return {
             tiles: [],
             mapItems: mapMarkers.markers,
+            filterType: mapMarkers.baseInfo.filter,
+            filterValue: 'all',
             transform: {
                 scale: 1,
                 x: 0,
@@ -262,12 +264,22 @@ export default {
             this.transform.x = centerX - (centerX - this.transform.x) * factor;
             this.transform.y = centerY - (centerY - this.transform.y) * factor;
             this.transform.scale = newScale;
+        },
+        FilterMarkers() {
+
         }
     }
 };
 </script>
 
 <template>
+    <div class="filter-container">
+        <label for="filter-type" style="margin-right: 8px;">{{ $t('filter.title') }}</label>
+        <select id="filter-type" v-model="filterValue" class="filter-select">
+            <option value="all">{{ $t('filter.all') }}</option>
+            <option v-for="item in filterType" :key="item.type" :value="item.type">{{ $t(item.name) }}</option>
+        </select>
+    </div>
     <div class="map-tiled" @wheel="handleWheel" @mousedown="handleMouseDown" @mousemove="handleMouseMove"
         @mouseup="handleMouseUp" @mouseleave="handleMouseUp" @contextmenu="handleContextMenu"
         @touchstart="handleTouchStart" @touchmove="handleTouchMove" @touchend="handleTouchEnd" @click="handleMapClick">
@@ -278,31 +290,69 @@ export default {
                 </transition>
             </div>
             <!-- Map Overlay for Coordinates/Markers -->
-            <MapOverlay :width="mapWidth" :height="mapHeight" :XYitems="mapItems" />
+            <MapOverlay :width="mapWidth" :height="mapHeight"
+                :XYitems="filterValue == 'all' ? mapItems : mapItems.filter(item => item.type == filterValue)" />
         </div>
     </div>
 </template>
 
 <style scoped>
+.filter-select {
+    padding: 4px;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--theme-color);
+    background-color: var(--background-color);
+    color: var(--theme-color);
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+option {
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    color: var(--theme-color);
+
+    &:checked {
+        background-color: var(--theme-color);
+        color: var(--background-color);
+    }
+}
+
+.filter-select:hover {
+    background-color: var(--theme-color);
+    color: var(--background-color);
+}
+
+.filter-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--background-color);
+    padding: 10px;
+    width: 100%;
+    z-index: 9999;
+}
+
 .map-tiled {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ececec;
     position: relative;
     touch-action: none;
 }
 
 .map-grid {
     display: grid;
-    background-color: #000;
     will-change: transform;
 }
 
 .map-tile {
     width: 100%;
     height: 100%;
-    background-color: #2a2a2a;
+    background-color: #dadada;
     position: relative;
     overflow: hidden;
 }

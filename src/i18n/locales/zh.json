@@ -47,6 +47,124 @@
     "mtn_station_12": {
       "name": "拉布拉多实验室站",
       "desc": "山站12的描述"
+    },
+    "land_mark_1": {
+      "name": "S.A.W. 迎宾中心",
+      "desc": "地标的描述"
+    },
+    "land_mark_2": {
+      "name": "SMOMA",
+      "desc": "地标的描述"
+    },
+    "land_mark_3": {
+      "name": "仓鼠球体育场",
+      "desc": "地标的描述"
+    },
+    "land_mark_4": {
+      "name": "胜利岛",
+      "desc": "地标的描述"
+    },
+    "land_mark_5": {
+      "name": "鳄鱼俱乐部",
+      "desc": "地标的描述"
+    },
+    "land_mark_6": {
+      "name": "PETE 的沼泽",
+      "desc": "地标的描述"
+    },
+    "land_mark_7": {
+      "name": "超级海洋公园",
+      "desc": "地标的描述"
+    },
+    "land_mark_8": {
+      "name": "金木森林",
+      "desc": "地标的描述"
+    },
+    "land_mark_9": {
+      "name": "鹰临",
+      "desc": "地标的描述"
+    },
+    "land_mark_10": {
+      "name": "超级动物剧院",
+      "desc": "地标的描述"
+    },
+    "land_mark_11": {
+      "name": "S.A.W. 山庄",
+      "desc": "地标的描述"
+    },
+    "land_mark_12": {
+      "name": "超级动物农场",
+      "desc": "地标的描述"
+    },
+    "land_mark_13": {
+      "name": "迷你牧场",
+      "desc": "地标的描述"
+    },
+    "land_mark_14": {
+      "name": "河狸建设总部",
+      "desc": "地标的描述"
+    },
+    "land_mark_15": {
+      "name": "S.A.W. 翠竹山庄",
+      "desc": "地标的描述"
+    },
+    "land_mark_16": {
+      "name": "S.A.W. 安保部",
+      "desc": "地标的描述"
+    },
+    "land_mark_17": {
+      "name": "PIXILE 港",
+      "desc": "地标的描述"
+    },
+    "land_mark_18": {
+      "name": "MURRE 之森",
+      "desc": "地标的描述"
+    },
+    "land_mark_19": {
+      "name": "巨型鸸鹋牧场",
+      "desc": "地标的描述"
+    },
+    "land_mark_20": {
+      "name": "生命果汁工厂",
+      "desc": "地标的描述"
+    },
+    "land_mark_21": {
+      "name": "超级撒哈拉沙漠",
+      "desc": "地标的描述"
+    },
+    "land_mark_22": {
+      "name": "超级金字塔",
+      "desc": "地标的描述"
+    },
+    "land_mark_23": {
+      "name": "S.A.W. 实验室",
+      "desc": "地标的描述"
+    },
+    "land_mark_24": {
+      "name": "超级紫晶山",
+      "desc": "地标的描述"
+    },
+    "land_mark_25": {
+      "name": "滑溜溜湖",
+      "desc": "地标的描述"
+    },
+    "land_mark_26": {
+      "name": "超级企鹅宫殿",
+      "desc": "地标的描述"
+    },
+    "land_mark_27": {
+      "name": "THOMAS 的苔原",
+      "desc": "地标的描述"
+    },
+    "land_mark_28": {
+      "name": "THOMAS 的工坊",
+      "desc": "地标的描述"
     }
+  },
+  "filter": {
+    "title": "展示类型",
+    "all": "全部",
+    "quicktravel": "MTN",
+    "landmarkname": "地标名称"
   }
 }
