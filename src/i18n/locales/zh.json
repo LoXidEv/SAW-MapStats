@@ -1,0 +1,52 @@
+{
+  "markers": {
+    "mtn_station_1": {
+      "name": "迎宾站",
+      "desc": "111111111111111111111111111111111111fhuiesgfiyiyuewgfuyefuyfwguyifguyiewfguyiewgfuyegyfegyf"
+    },
+    "mtn_station_2": {
+      "name": "Murre 站",
+      "desc": "山站2的描述"
+    },
+    "mtn_station_3": {
+      "name": "迷你站",
+      "desc": "山站3的描述"
+    },
+    "mtn_station_4": {
+      "name": "鸸鹋站",
+      "desc": "山站4的描述"
+    },
+    "mtn_station_5": {
+      "name": "世末之站",
+      "desc": "山站5的描述"
+    },
+    "mtn_station_6": {
+      "name": "胜利站",
+      "desc": "山站6的描述"
+    },
+    "mtn_station_7": {
+      "name": "企鹅站",
+      "desc": "山站7的描述"
+    },
+    "mtn_station_8": {
+      "name": "紫晶站",
+      "desc": "山站8的描述"
+    },
+    "mtn_station_9": {
+      "name": "Pixile 港站",
+      "desc": "山站9的描述"
+    },
+    "mtn_station_10": {
+      "name": "竹子站",
+      "desc": "山站10的描述"
+    },
+    "mtn_station_11": {
+      "name": "海洋乐园站",
+      "desc": "山站11的描述"
+    },
+    "mtn_station_12": {
+      "name": "拉布拉多实验室站",
+      "desc": "山站12的描述"
+    }
+  }
+}

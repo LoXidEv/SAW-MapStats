@@ -1,0 +1,115 @@
+{
+    "Name": "COSH",
+    "Desc": {
+        "C": "ode",
+        "O": "riginal",
+        "S": "hare",
+        "H": "obby",
+        "Slogan": "從一行代碼到一個世界"
+    },
+    "Button": {
+        "BackHome": "返回首頁",
+        "More": "Learn more",
+        "JoinUs": "獲取聯繫",
+        "Sponsor": "贊助列表",
+        "Language": "語言"
+    },
+    "Notfound": {
+        "Title": "頁面未找到",
+        "Subtitle": "404 Not Found",
+        "Content": "頁面未找到，可能是因為連結錯誤或者頁面已被刪除"
+    },
+    "Project": {
+        "Title": "我們的項目",
+        "Subtitle": "Our Projects",
+        "SARLab": {
+            "Name": "SAR Labo+try",
+            "Desc": "全新的 SAR 即時玩家戰績數據查詢網站",
+            "Developer": "網頁由 LoXi 和 zzdEv 開發，API 由 Oiklm 開發"
+        }
+    },
+    "Team": {
+        "Title": "我們的團隊",
+        "Subtitle": "Our Team",
+        "LoXi": {
+            "Name": "LoXi",
+            "Desc": "橘熟霜輕浮洛水，溪光映果滿庭芳",
+            "Tage": "Frontend-Developer",
+            "Avatar": "https://avatars.githubusercontent.com/u/110319858?v=4",
+            "Banner": "/img/loxi_banner.webp",
+            "Link": "https://loxi.work"
+        },
+        "zzdEv": {
+            "Name": "zzdEv",
+            "Desc": "為無聊的人生賦予一點意義罷",
+            "Tage": "Frontend-Developer",
+            "Avatar": "/img/zzdev_avatar.webp",
+            "Banner": "/img/zzdev_banner.webp",
+            "Link": "https://github.com/Therealzz/"
+        },
+        "oiklm": {
+            "Name": "OiklM",
+            "Desc": "因果既已定，萬物不可逃",
+            "Tage": "Backend-Developer",
+            "Avatar": "https://avatars.githubusercontent.com/u/160687846?v=4",
+            "Banner": "/img/oiklm_banner.webp",
+            "Link": "https://www.oiklm.com/"
+        },
+        "Lithescale": {
+            "Name": "Lithescale",
+            "Desc": "戚雨藏雲碎詭風，輕羽綿鱗貓貓龍",
+            "Tage": "None-Developer",
+            "Banner": "/img/th.webp",
+            "Avatar": "https://avatars.githubusercontent.com/u/28075457?v=4"
+        },
+        "LeonardoFox": {
+            "Name": "LeonardoFox",
+            "Desc": "一隻想要走遍全世界的小狐狸",
+            "Tage": "None-Developer",
+            "Banner": "/img/th.webp",
+            "Avatar": "https://q.qlogo.cn/headimg_dl?dst_uin=2460329653&spec=640&img_type=jpg"
+        },
+        "Mint_Labiatae": {
+            "Name": "Mint_Labiatae",
+            "Desc": "保持期待，奔赴山海",
+            "Tage": "None-Developer",
+            "Banner": "/img/th.webp",
+            "Avatar": "https://q.qlogo.cn/headimg_dl?dst_uin=1905759829&spec=640&img_type=jpg"
+        },
+        "StarTears": {
+            "Name": "StarTears",
+            "Desc": "銀漢碎裂的剎那，星淚墜成時光裡未乾的墨痕",
+            "Tage": "None-Developer",
+            "Banner": "/img/th.webp",
+            "Avatar": "https://xl.loxi.work/image/star_avatar.webp"
+        }
+    },
+    "JoinUs": {
+        "Title": "加入我們",
+        "Subtitle": "Join Us",
+        "Content": "COSH 是由三隻小動物開發者組成的開發社團，從一行代碼到一個世界。我們的成員涵蓋各種編程語言和技術領域，無論你是初學者還是經驗豐富的開發者，都能很快融入我們。請通過以下渠道與我們聯繫！",
+        "Desc": "選擇下列聯繫方式與我們交流"
+    },
+    "Policy": {
+        "Title": "服務條款",
+        "Title1": "隱私政策",
+        "Title2": "免責聲明",
+        "Subtitle": "Service Terms",
+        "Subtitle1": "Privacy Policy",
+        "Subtitle2": "Disclaimer"
+    },
+    "Footer": {
+        "File": "文件",
+        "Project": "項目",
+        "Link": "服務",
+        "SarCnIndex": "SAR 中文官方社群索引",
+        "Docs": "官方文檔",
+        "APIDocs": "公共 API 文檔"
+    },
+    "Sponsor": {
+        "Title": "贊助我們",
+        "Subtitle": "Sponsor Us",
+        "Title2": "贊助者感謝",
+        "Desc": "您的支持推動我們不斷變好"
+    }
+}

@@ -1,0 +1,115 @@
+{
+  "Name": "COSH",
+  "Desc": {
+    "C": "ode",
+    "O": "riginal",
+    "S": "hare",
+    "H": "obby",
+    "Slogan": "From a line of code to a world"
+  },
+  "Button": {
+    "BackHome": "Back to Home",
+    "More": "Learn more",
+    "JoinUs": "Get in Touch",
+    "Sponsor": "Sponsor List",
+    "Language": "Language"
+  },
+  "Notfound": {
+    "Title": "Page Not Found",
+    "Subtitle": "404 Not Found",
+    "Content": "Page not found, possibly due to incorrect link or the page has been deleted"
+  },
+  "Project": {
+    "Title": "Our Projects",
+    "Subtitle": "Our Projects",
+    "SARLab": {
+      "Name": "SAR Labo+try",
+      "Desc": "Brand new SAR real-time player statistics query website",
+      "Developer": "Website developed by LoXi and zzdEv, API developed by Oiklm"
+    }
+  },
+  "Team": {
+    "Title": "Our Team",
+    "Subtitle": "Our Team",
+    "LoXi": {
+      "Name": "LoXi",
+      "Desc": "橘熟霜轻浮洛水，溪光映果满庭芳",
+      "Tage": "Frontend-Developer",
+      "Avatar": "https://avatars.githubusercontent.com/u/110319858?v=4",
+      "Banner": "/img/loxi_banner.webp",
+      "Link": "https://loxi.work"
+    },
+    "zzdEv": {
+      "Name": "zzdEv",
+      "Desc": "為無聊的人生賦予一點意義罷",
+      "Tage": "Frontend-Developer",
+      "Avatar": "/img/zzdev_avatar.webp",
+      "Banner": "/img/zzdev_banner.webp",
+      "Link": "https://github.com/Therealzz/"
+    },
+    "oiklm": {
+      "Name": "OiklM",
+      "Desc": "因果既已定，萬物不可逃",
+      "Tage": "Backend-Developer",
+      "Avatar": "https://avatars.githubusercontent.com/u/160687846?v=4",
+      "Banner": "/img/oiklm_banner.webp",
+      "Link": "https://www.oiklm.com/"
+    },
+    "Lithescale": {
+      "Name": "Lithescale",
+      "Desc": "戚雨藏云碎诡风，轻羽绵鳞猫猫龙",
+      "Tage": "None-Developer",
+      "Banner": "/img/th.webp",
+      "Avatar": "https://avatars.githubusercontent.com/u/28075457?v=4"
+    },
+    "LeonardoFox": {
+      "Name": "LeonardoFox",
+      "Desc": "一只想要走遍全世界的小狐狸",
+      "Tage": "None-Developer",
+      "Banner": "/img/th.webp",
+      "Avatar": "https://q.qlogo.cn/headimg_dl?dst_uin=2460329653&spec=640&img_type=jpg"
+    },
+    "Mint_Labiatae": {
+      "Name": "Mint_Labiatae",
+      "Desc": "保持期待，奔赴山海",
+      "Tage": "None-Developer",
+      "Banner": "/img/th.webp",
+      "Avatar": "https://q.qlogo.cn/headimg_dl?dst_uin=1905759829&spec=640&img_type=jpg"
+    },
+    "StarTears": {
+      "Name": "StarTears",
+      "Desc": "银汉碎裂的刹那，星泪坠成时光里未干的墨痕",
+      "Tage": "None-Developer",
+      "Banner": "/img/th.webp",
+      "Avatar": "https://xl.loxi.work/image/star_avatar.webp"
+    }
+  },
+  "JoinUs": {
+    "Title": "Join Us",
+    "Subtitle": "Join Us",
+    "Content": "COSH is a developer community formed by three little animal developers, from a line of code to a world. Our members span various programming languages and technical fields. Whether you are a beginner or an experienced developer, you can quickly integrate with us. Please contact us through the following channels!",
+    "Desc": "Choose the following contact methods to communicate with us"
+  },
+  "Policy": {
+    "Title": "Terms of Service",
+    "Title1": "Privacy Policy",
+    "Title2": "Disclaimer",
+    "Subtitle": "Service Terms",
+    "Subtitle1": "Privacy Policy",
+    "Subtitle2": "Disclaimer"
+  },
+  "Footer": {
+    "File": "Files",
+    "Project": "Projects",
+    "Link": "Services",
+    "SarCnIndex": "SAR Chinese Official Community Index",
+    "Docs": "Official Documentation",
+    "APIDocs": "Public API Documentation"
+  },
+  "Sponsor": {
+    "Title": "Sponsor Us",
+    "Subtitle": "Sponsor Us",
+    "Title2": "Sponsor Thanks",
+    "Desc": "Your support drives us to keep getting better"
+  }
+}

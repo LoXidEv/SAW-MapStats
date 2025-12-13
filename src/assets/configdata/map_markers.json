@@ -1,0 +1,148 @@
+{
+  "markers": [
+    {
+      "id": "mtn_station_1",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_1.name",
+        "icon": "NPC_mole.png",
+        "originalX": 254,
+        "originalY": 1657,
+        "desc": "markers.mtn_station_1.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_2",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_2.name",
+        "icon": "NPC_mole.png",
+        "originalX": 268,
+        "originalY": 1068,
+        "desc": "markers.mtn_station_2.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_3",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_3.name",
+        "icon": "NPC_mole.png",
+        "originalX": 1403,
+        "originalY": 1377,
+        "desc": "markers.mtn_station_3.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_4",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_4.name",
+        "icon": "NPC_mole.png",
+        "originalX": 800,
+        "originalY": 894,
+        "desc": "markers.mtn_station_4.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_5",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_5.name",
+        "icon": "NPC_mole.png",
+        "originalX": 1879,
+        "originalY": 266,
+        "desc": "markers.mtn_station_5.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_6",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_6.name",
+        "icon": "NPC_mole.png",
+        "originalX": 1069,
+        "originalY": 1961,
+        "desc": "markers.mtn_station_6.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_7",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_7.name",
+        "icon": "NPC_mole.png",
+        "originalX": 968,
+        "originalY": 329,
+        "desc": "markers.mtn_station_7.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_8",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_8.name",
+        "icon": "NPC_mole.png",
+        "originalX": 453,
+        "originalY": 552,
+        "desc": "markers.mtn_station_8.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_9",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_9.name",
+        "icon": "NPC_mole.png",
+        "originalX": 1825,
+        "originalY": 1231,
+        "desc": "markers.mtn_station_9.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_10",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_10.name",
+        "icon": "NPC_mole.png",
+        "originalX": 1175,
+        "originalY": 1193,
+        "desc": "markers.mtn_station_10.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_11",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_11.name",
+        "icon": "NPC_mole.png",
+        "originalX": 1876,
+        "originalY": 1911,
+        "desc": "markers.mtn_station_11.desc"
+      },
+      "extendInfo": {}
+    },
+    {
+      "id": "mtn_station_12",
+      "type": "quicktravel",
+      "baseInfo": {
+        "name": "markers.mtn_station_12.name",
+        "icon": "NPC_mole.png",
+        "originalX": 1158,
+        "originalY": 611,
+        "desc": "markers.mtn_station_12.desc"
+      },
+      "extendInfo": {}
+    }
+  ]
+}
