@@ -73,18 +73,18 @@ export default {
     },
     methods: {
         // Developer Use: Handle map click to get map coordinates
-        handleMapClick(e) {
-            if (this.isDragging) return;
+        // handleMapClick(e) {
+        //     if (this.isDragging) return;
 
-            const rect = this.$el.getBoundingClientRect();
-            const mouseX = e.clientX - rect.left;
-            const mouseY = e.clientY - rect.top;
+        //     const rect = this.$el.getBoundingClientRect();
+        //     const mouseX = e.clientX - rect.left;
+        //     const mouseY = e.clientY - rect.top;
 
-            const mapX = (mouseX - this.transform.x) / this.transform.scale;
-            const mapY = (mouseY - this.transform.y) / this.transform.scale;
+        //     const mapX = (mouseX - this.transform.x) / this.transform.scale;
+        //     const mapY = (mouseY - this.transform.y) / this.transform.scale;
 
-            console.log(`Map Click: (${Math.round(mapX)}, ${Math.round(mapY)})`);
-        },
+        //     console.log(`Map Click: (${Math.round(mapX)}, ${Math.round(mapY)})`);
+        // },
         initTiles() {
             const list = [];
             for (let r = 1; r <= mapConfig.rows; r++) {
