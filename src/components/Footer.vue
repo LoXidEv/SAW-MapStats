@@ -18,6 +18,6 @@ footer {
     backdrop-filter: blur(10px);
     font-size: 14px;
     color: #8a8a8a;
-    text-align: center;
+    /* text-align: center; */
 }
 </style>

@@ -329,6 +329,7 @@ option {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     background-color: var(--background-color);
     padding: 10px;
     width: 100%;
