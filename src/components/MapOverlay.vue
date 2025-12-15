@@ -146,7 +146,7 @@ export default {
 .marker-icon {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    /* border-radius: 50%; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
 }
 </style>

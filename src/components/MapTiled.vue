@@ -265,9 +265,6 @@ export default {
             this.transform.x = centerX - (centerX - this.transform.x) * factor;
             this.transform.y = centerY - (centerY - this.transform.y) * factor;
             this.transform.scale = newScale;
-        },
-        FilterMarkers() {
-
         }
     }
 };
