@@ -12,10 +12,26 @@
       {
         "name": "filter.superite",
         "type": "superite"
+      },
+            {
+        "name": "filter.oldmei",
+        "type": "oldmei"
       }
     ]
   },
   "markers": [
+    {
+      "id": "route_npc_oldmei",
+      "type": "oldmei",
+      "baseInfo": {
+        "name": "markers.route_npc_oldmei.name",
+        "icon": "null",
+        "originalX": null,
+        "originalY": null,
+        "desc": "markers.route_npc_oldmei.desc"
+      },
+      "extendInfo": {}
+    },
     {
       "id": "land_mark_1",
       "type": "landmarkname",

@@ -36,12 +36,16 @@ export default {
 <template>
     <div class="map-overlay" :style="{ width: width + 'px', height: height + 'px' }">
         <div v-for="item in XYitems" :key="item.id">
-            <button class="map-marker" @click="MarkerClick(item)"
+            <button v-if="item.type !== 'oldmei'" class="map-marker" @click="MarkerClick(item)"
                 :style="{ left: item.baseInfo.originalX + 'px', top: item.baseInfo.originalY + 'px' }"
                 :title="`(${Math.round(item.baseInfo.originalX)}, ${Math.round(item.baseInfo.originalY)}) ${$t(item.baseInfo.name)}\n${$t(item.baseInfo.desc)}`">
-                <img class="marker-icon" v-if="item.baseInfo.icon !== 'null'" :src="'/image/icon/' + item.baseInfo.icon" alt="Marker Icon" />
-                <div v-else style="font-size: 26px;color: #ffffff;text-shadow: 0 0 8px #000000;text-align: center;font-weight: bold;">{{ $t(item.baseInfo.name) }}</div>
+                <img class="marker-icon" v-if="item.baseInfo.icon !== 'null'" :src="'/image/icon/' + item.baseInfo.icon"
+                    alt="Marker Icon" />
+                <div v-else
+                    style="font-size: 26px;color: #ffffff;text-shadow: 0 0 8px #000000;text-align: center;font-weight: bold;">
+                    {{ $t(item.baseInfo.name) }}</div>
             </button>
+            <img v-else class="map-marker-oldmei" src="/image/route/route_npc_oldmei.png" alt="Marker Icon" />
         </div>
 
         <Teleport to="body">
@@ -59,6 +63,11 @@ export default {
 </template>
 
 <style scoped>
+.map-marker-oldmei {
+    width: 100%;
+    z-index: 9999;
+}
+
 .map-marker-text-navbar {
     display: flex;
     justify-content: space-between;
